@@ -4,4 +4,10 @@ let quotesData = [
     { quote: 'Intelligence plus character-that is the goal of true education.', author: 'Martin Luther King, Jr.' }
 ];
 
-module.exports = quotesData;
+let index = 0;
+
+module.exports = {
+    list: quotesData,
+    index: index
+}
+
