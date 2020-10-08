@@ -30,7 +30,7 @@ function getRandomInt(max) {
     return Math.floor(Math.random() * Math.floor(max));
 }
 
-app.post('/quotes', (req, res) => {
+app.post('/submitQuotes', (req, res) => {
     console.log('hello from post', req.body);
 
     quotesData.list.push(req.body);
